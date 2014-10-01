@@ -14,18 +14,8 @@
  
   
   <div class="row">
-    <div class="large-3 columns">
+    <div class="large-7 columns">
       <h1><img src="markroot.png"/></h1>
-    </div>
-    <div class="large-9 columns">
-    	<div class="button-bar right">
-		  <ul class="button-group round">
-		    <li><a href="#" class="small button alert dropdown">Research</a></li>
-		    <li><a href="#" class="small button alert">Teaching</a></li>
-		    <li><a href="#" class="small button alert">Profile</a></li>
-		    <li><a href="#" class="small button alert">Personal</a></li>
-		  </ul>
-		</div>
     </div>
   </div>
   
@@ -42,15 +32,19 @@
      
     <div class="large-5 pull-0 columns">
         
-      <ul class="side-nav">
-        <li><a href="#">Section 1</a></li>
-        <li><a href="#">Section 2</a></li>
-        <li><a href="#">Section 3</a></li>
-        <li><a href="#">Section 4</a></li>
-        <li><a href="#">Section 5</a></li>
-        <li><a href="#">Section 6</a></li>
-      </ul>
-      
+      <ul class="stack button-group">
+		  <li>
+		  	<a href="#" data-options="is_hover:true" data-dropdown="rightDrop" class="small button" aria-expanded="false">Research</a>
+			<ul id="rightDrop" class="f-dropdown drop-right" data-dropdown-content aria-hidden="false">
+			  <li><a href="http://wheatoncollege.edu/genomics/">Genomics</a></li>
+			  <li><a href="http://wheatoncollege.edu/lexomics/">Anglo Saxon</a></li>
+			</ul>
+		  </li>
+		  <li><a href="http://cs.wheatoncollege.edu/~mleblanc/courses.html" class="small button">Teaching</a></li>
+		  <li><a href="http://wheatoncollege.edu/faculty/profiles/mark-d-leblanc/" class="small button">Profile</a></li>
+		  <li><a href="http://cs.wheatoncollege.edu/~mleblanc/personal.html" class="small button">Personal</a></li>
+	  </ul>
+
       <p><img src="http://placehold.it/320x240&text=Ad"/></p>
         
     </div>
