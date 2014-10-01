@@ -1,3 +1,14 @@
-#wordcloud {
-	height: inherit;
+body {
+	background: linear-gradient(180deg, black, white);
+}
+
+footer {
+	color: #fff;
+}
+
+footer #hr {
+	border-color: #ff0;
+	border: none;
+	border-top: thick double;
+	text-align: center;
 }
