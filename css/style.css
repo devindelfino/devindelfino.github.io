@@ -5,9 +5,10 @@ body {
 body #background {
   height: 100vh;
   width: 100vw;
-  background-image: url('../img/background.jpg');
-  background-position: bottom;
+  background-image: url('../img/background.png');
+  background-position: left;
   background-size: cover;
+  background-repeat: repeat-x;
 }
 
 .row#top {
@@ -28,4 +29,22 @@ body #background {
 	vertical-align: top;
 	float: right;
 	font-size: 150%;
+}
+
+table {
+	border: none;
+}
+
+.featuredimg {
+	vertical-align: middle;
+	width: 363px;
+	height: 363px;
+	text-align: center;
+	/*display: inline;*/
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
