@@ -245,7 +245,7 @@
 	</div>
 <!-- Portfolio MODAL=================================================================== -->
 	<div id="portfolioModal" class="reveal-modal" data-reveal>
-		<h2>COMP 398: Web Application Development Portfolio</h2>
+		<h2><a href="https://github.com/devindelfino/comp398" target="_blank">COMP 398</a>: Web Application Development Portfolio</h2>
 		<a class="close-reveal-modal">&#215;</a>
 		<div class="row">
 			<div class="large-2 push-1 columns">
@@ -261,15 +261,15 @@
 				<a class="secondary button" data-reveal-id="geojson">GeoJSON Map</a>	
 			</div>
 			<div class="large-2 pull-1 columns">
-				<a class="secondary button" data-reveal-id="comingsoon">Featured</a>	
+				<a class="secondary button" data-reveal-id="populate">Populating Databases</a>	
 			</div>
 		</div>
 		<div class="row">
 			<div class="large-2 push-1 columns">
-				<a class="secondary button" data-reveal-id="comingsoon">Featured</a>	
+				<a class="secondary button" data-reveal-id="campusevents">Campus Events API</a>	
 			</div>
 			<div class="large-2 push-1 columns">
-				<a class="secondary button" data-reveal-id="comingsoon">Featured</a>	
+				<a class="secondary button" data-reveal-id="lazycaterer">Lazy Caterer's Sequence</a>	
 			</div>
 			<div class="large-2 push-1 columns">
 				<a class="secondary button" data-reveal-id="comingsoon">Featured</a>	
@@ -358,7 +358,7 @@
 		</div>
 	</div>
 
-<div id="geojson" class="reveal-modal" data-reveal>
+	<div id="geojson" class="reveal-modal" data-reveal>
 		<div class="row">
 			<table>
 				<tr>
@@ -376,6 +376,81 @@
 						<div class="description">
 							<h2>HW 10: GeoJSON GATRA Route</h2>
 							<p>This geoJSON map displays the route of the GATRA including its stops at Wheaton, Mansfield Crossing, and Mansfield Train Station. The code for this map can be found <a href="https://github.com/devindelfino/comp398/tree/master/hw/hw10">here</a>.</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="populate" class="reveal-modal" data-reveal>
+		<div class="row">
+			<table>
+				<tr>
+					<div class="small-1 push-11 large-1 push-11 columns">
+						<a class="subModal" data-reveal-id="portfolioModal">&crarr;</a>
+					</div>	
+				</tr>
+				<tr>
+					<td>
+						<div class="featuredimg">
+							<img src="./img/mongodb.png"
+						</div>
+					</td>
+					<td>
+						<div class="description">
+							<h2>HW 14: Populating MongoDB Database</h2>
+							<p>This javascript file connects to my MongoDB database hosted on <a href="http://www.mongolab.com">MongoLab</a> and populates the "Professors" collection with documents consisting of information regarding Wheaton College professors including office hours, department, and research interests. The code can be found <a href="https://github.com/devindelfino/comp398/tree/master/hw/hw14">here</a>.</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="campusevents" class="reveal-modal" data-reveal>
+		<div class="row">
+			<table>
+				<tr>
+					<div class="small-1 push-11 large-1 push-11 columns">
+						<a class="subModal" data-reveal-id="portfolioModal">&crarr;</a>
+					</div>	
+				</tr>
+				<tr>
+					<td>
+						<div class="featuredimg">
+							<img src="./img/restful.jpg"
+						</div>
+					</td>
+					<td>
+						<div class="description">
+							<h2>Project 2: Campus Events API</h2>
+							<p>Using Node.js, MongoDB, Heroku, and Postman REST Client, <a href="https://github.com/dshelts">Andrew Shelton</a>, <a href="https://github.com/rubinz">Zevi Rubin</a>, and I are creating a RESTful web services API that allows users to perform basic CRUD operations via HTTP requests. The domain of our API is Wheaton College Campus Events, where each document in the database contains relevant information regarding a particular event. The code for this map can be found <a href="https://github.com/dshelts/CampusEventsApi">here</a>.</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="lazycaterer" class="reveal-modal" data-reveal>
+		<div class="row">
+			<table>
+				<tr>
+					<div class="small-1 push-11 large-1 push-11 columns">
+						<a class="subModal" data-reveal-id="portfolioModal">&crarr;</a>
+					</div>	
+				</tr>
+				<tr>
+					<td>
+						<div class="featuredimg">
+							<img src="./img/lazypancake.jpg"
+						</div>
+					</td>
+					<td>
+						<div class="description">
+							<h2>Exam #3: Lazy Caterer's Sequence</h2>
+							<p>This html file uses javascript to generate the first <em>n</em> values of the Lazy Caterer's Sequence. The code for this map can be found <a href="https://github.com/devindelfino/comp398/blob/master/exam/prob3.html">here</a>.</p>
 						</div>
 					</td>
 				</tr>
